@@ -14,8 +14,8 @@ contact@gpugoblin.com
    PyTorch model is captured with `torch.export` and translated into a model description. No
    Python code is sent; what leaves the researcher's machine is that description and the input
    tensors.
-2. The server, at grid.gpugoblin.com, splits the work into tasks and assigns them to contributors'
-   machines, within the limits each owner sets: when to lend, how much memory, which card.
+2. The server splits the work into tasks and assigns them to contributors' machines, within the
+   limits each owner sets.
 3. On each machine, GPU Goblin's own executor computes the task in a sandbox that cannot reach the
    network or the owner's files: bubblewrap, Landlock and seccomp on Linux; an AppContainer inside
    a Job Object on Windows.
