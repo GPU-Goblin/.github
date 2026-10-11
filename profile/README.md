@@ -20,7 +20,7 @@ contact@gpugoblin.com
    network or the owner's files: bubblewrap, Landlock and seccomp on Linux; an AppContainer inside
    a Job Object on Windows.
 4. A validator recomputes each result before it is accepted. An accepted task produces a signed
-   receipt and one entry in the credit ledger. Credits count contributions; they are not money.
+   receipt and one entry in the credit ledger. Credits count contributions.
 
 ## Status (October 2026)
 
